@@ -1,0 +1,26 @@
+# Insurance Premium Calculator
+
+This is a basic insurance pricing model built in Microsoft Excel. It calculates an insurance premium based on user-input values for customer age and risk category.
+
+## 🧮 What It Does
+
+- Accepts customer age and a risk category (Low, Medium, High)
+- Applies a base premium and adjusts it using:
+  - A risk multiplier
+  - An age-based factor (+1% for every year over 30)
+- Outputs a final premium
+
+## 🛠 Tech Used
+
+- Excel formulas (VLOOKUP, IF logic)
+- Conditional formatting
+- Simple user inputs and calculated output
+
+## 📌 Why This Exists
+
+Built as a learning project during my transition into actuarial work. It simulates how property & casualty insurers might use basic rating logic to assign premiums.
+
+## 🔍 Sample Formula
+
+```excel
+Final Premium = Base Premium × Risk Multiplier × Age Factor

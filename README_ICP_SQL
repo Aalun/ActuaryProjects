@@ -1,0 +1,42 @@
+
+---
+
+## 📁 Project 2: Insurance Claims SQL Project
+
+### `README.md`:
+
+```markdown
+# Insurance Claims SQL Analysis
+
+This project simulates an insurance claims database and includes sample SQL queries to analyze customer claim behavior.
+
+## 🧮 What It Does
+
+- Creates two related tables: `Customers` and `Claims`
+- Inserts sample data for multiple customers and claims
+- Includes queries to:
+  - Total claims per customer
+  - Average claim by risk category
+  - Filter claims by age and amount
+  - Identify the largest claim
+
+## 🛠 Tech Used
+
+- SQL (PostgreSQL syntax, portable to others)
+- Joins, GROUP BY, HAVING, ORDER BY, and filtering
+- Query logic saved in `.sql` format
+
+## 📌 Why This Exists
+
+Built as a real-world modeling project to strengthen data analysis and relational database skills relevant to actuarial and insurance analytics.
+
+## 🗂 Files
+
+- `create_tables.sql`: Table definitions for Customers and Claims
+- `insert_data.sql`: Sample data
+- `queries.sql`: A set of useful reporting queries
+- `README.md`: You're here!
+
+## 👨‍💻 Author
+
+Nathan DeVaul – aspiring actuarial analyst focused on building strong foundational skills in analytics, SQL, and insurance modeling.

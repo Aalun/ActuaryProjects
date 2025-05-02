@@ -1,0 +1,3 @@
+SELECT * FROM Claims
+ORDER BY ClaimAmount DESC
+LIMIT 1;
